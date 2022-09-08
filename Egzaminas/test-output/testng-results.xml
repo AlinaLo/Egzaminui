@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-08T11:14:48 EEST" name="SmokeTests" finished-at="2022-09-08T11:15:00 EEST" duration-ms="12065">
+    <groups>
+    </groups>
+    <test started-at="2022-09-08T11:14:48 EEST" name="Testai" finished-at="2022-09-08T11:15:00 EEST" duration-ms="12065">
+      <class name="Testai.Test1">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:Testai.Test1@7f0eb4b4]" started-at="2022-09-08T11:14:48 EEST" name="setUp" finished-at="2022-09-08T11:14:55 EEST" duration-ms="7569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="NotUniqueRegistration()[pri:0, instance:Testai.Test1@7f0eb4b4]" started-at="2022-09-08T11:14:55 EEST" name="NotUniqueRegistration" finished-at="2022-09-08T11:14:56 EEST" duration-ms="1188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NotUniqueRegistration -->
+        <test-method signature="UniqueRegistraion()[pri:0, instance:Testai.Test1@7f0eb4b4]" started-at="2022-09-08T11:14:57 EEST" name="UniqueRegistraion" finished-at="2022-09-08T11:14:58 EEST" duration-ms="1308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UniqueRegistraion -->
+        <test-method signature="IncorrectLogin()[pri:0, instance:Testai.Test1@7f0eb4b4]" started-at="2022-09-08T11:14:58 EEST" name="IncorrectLogin" finished-at="2022-09-08T11:14:59 EEST" duration-ms="733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- IncorrectLogin -->
+        <test-method signature="CorrectLogin()[pri:0, instance:Testai.Test1@7f0eb4b4]" started-at="2022-09-08T11:14:59 EEST" name="CorrectLogin" finished-at="2022-09-08T11:14:59 EEST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CorrectLogin -->
+        <test-method signature="LogOut()[pri:0, instance:Testai.Test1@7f0eb4b4]" started-at="2022-09-08T11:14:59 EEST" name="LogOut" finished-at="2022-09-08T11:14:59 EEST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+        <test-method is-config="true" signature="close()[pri:0, instance:Testai.Test1@7f0eb4b4]" started-at="2022-09-08T11:14:59 EEST" name="close" finished-at="2022-09-08T11:15:00 EEST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Testai.Test1 -->
+    </test> <!-- Testai -->
+  </suite> <!-- SmokeTests -->
+</testng-results>
